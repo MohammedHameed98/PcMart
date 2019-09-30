@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/repair_guy"
+            android:id="@+id/mg_repairguy_Alert"
+            android:scaleType="centerCrop"
+            android:elevation="10dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_repairguy_Alert"
+            android:layout_below="@id/mg_repairguy_Alert"
+            android:text=""
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:textColor="#000000"
+            android:fontFamily="@font/montserrat"
+            android:textSize="16sp"
+            android:textAlignment="center"/>
+</RelativeLayout>

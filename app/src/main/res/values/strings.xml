@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pc Mart</string>
+    <string name="sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="sign_in_with_gmail">Sign in with Gmail</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="build_it_the_right_way">BUILD IT THE RIGHT WAY</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign in</string>
+    <string name="sign_up_with_gmail">Sign up with Gmail</string>
+    <string name="sign_up_with_facebook">Sign up with Facebook</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+</resources>

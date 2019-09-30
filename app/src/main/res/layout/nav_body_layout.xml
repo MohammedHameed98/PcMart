@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/navBody"
+              android:padding="10dp"
+              android:paddingStart="15dp"
+
+>
+    <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/navBody"
+            android:weightSum="100"
+            android:onClick="navBodyOnClick"
+            android:id="@+id/LL_orders"
+    >
+        <TextView android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:text="Orders"
+                  android:textColor="@color/colorWhite"
+                  android:textSize="18sp"
+                  android:fontFamily="@font/montserrat"
+                  android:layout_weight="80"
+        />
+        <ImageView android:layout_width="0dp"
+                   android:layout_height="32dp"
+                   android:src="@drawable/icon_orders"
+                   android:layout_weight="20"
+                   android:paddingStart="15dp"
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/navBody"
+            android:weightSum="100"
+            android:onClick="navBodyOnClick"
+            android:id="@+id/LL_cart"
+            android:paddingTop="5dp"
+
+    >
+        <TextView android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:text="Cart"
+                  android:textColor="@color/colorWhite"
+                  android:textSize="18sp"
+                  android:fontFamily="@font/montserrat"
+                  android:layout_weight="80"
+        />
+        <ImageView android:layout_width="0dp"
+                   android:layout_height="32dp"
+                   android:src="@drawable/icon_cart"
+                   android:layout_weight="20"
+                   android:paddingStart="15dp"
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/navBody"
+            android:weightSum="100"
+            android:onClick="navBodyOnClick"
+            android:id="@+id/LL_location"
+            android:paddingTop="5dp"
+
+    >
+        <TextView android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:text="Store Location"
+                  android:textColor="@color/colorWhite"
+                  android:textSize="18sp"
+                  android:fontFamily="@font/montserrat"
+                  android:layout_weight="80"
+        />
+        <ImageView android:layout_width="0dp"
+                   android:layout_height="32dp"
+                   android:src="@drawable/icon_location"
+                   android:layout_weight="20"
+                   android:paddingStart="15dp"
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/navBody"
+            android:weightSum="100"
+            android:onClick="navBodyOnClick"
+            android:paddingTop="5dp"
+            android:id="@+id/LL_build"
+    >
+        <TextView android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:text="Build a PC"
+                  android:textColor="@color/colorWhite"
+                  android:textSize="18sp"
+                  android:fontFamily="@font/montserrat"
+                  android:layout_weight="80"
+        />
+        <ImageView android:layout_width="0dp"
+                   android:layout_height="32dp"
+                   android:src="@drawable/icon_computer"
+                   android:layout_weight="20"
+                   android:paddingStart="15dp"
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/navBody"
+            android:paddingTop="5dp"
+
+            android:weightSum="100"
+            android:onClick="navBodyOnClick"
+            android:id="@+id/LL_repair"
+    >
+        <TextView android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:text="Repair"
+                  android:textColor="@color/colorWhite"
+                  android:textSize="18sp"
+                  android:fontFamily="@font/montserrat"
+                  android:layout_weight="80"
+        />
+        <ImageView android:layout_width="0dp"
+                   android:layout_height="32dp"
+                   android:src="@drawable/icon_repair"
+                   android:layout_weight="20"
+                   android:paddingStart="15dp"
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/navBody"
+            android:paddingTop="5dp"
+
+            android:weightSum="100"
+            android:onClick="navBodyOnClick"
+            android:id="@+id/LL_faq"
+    >
+        <TextView android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:text="FAQ"
+                  android:textColor="@color/colorWhite"
+                  android:textSize="18sp"
+                  android:fontFamily="@font/montserrat"
+                  android:layout_weight="80"
+        />
+        <ImageView android:layout_width="0dp"
+                   android:layout_height="32dp"
+                   android:src="@drawable/icon_faqs"
+                   android:layout_weight="20"
+                   android:paddingStart="15dp"
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/navBody"
+            android:paddingTop="5dp"
+
+            android:weightSum="100"
+            android:onClick="navBodyOnClick"
+            android:id="@+id/LL_signOut"
+    >
+        <TextView android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:text="Sign Out"
+                  android:textColor="@color/colorWhite"
+                  android:textSize="18sp"
+                  android:fontFamily="@font/montserrat"
+                  android:layout_weight="80"
+        />
+        <ImageView android:layout_width="0dp"
+                   android:layout_height="42dp"
+                   android:src="@drawable/icon_signout"
+                   android:layout_weight="20"
+                   android:paddingStart="15dp"
+        />
+    </LinearLayout>
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="bottom">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/navBody"
+            android:paddingBottom="10dp"
+    >
+        <ImageView android:layout_width="40dp"
+                   android:layout_height="40dp"
+                   android:background="@drawable/iconfinder_square_facebook_317727"
+                   android:onClick="navBodyOnClick"
+                   android:id="@+id/mg_facebookIconNavBody"
+        />
+        <ImageView android:layout_width="40dp"
+                   android:layout_height="40dp"
+                   android:background="@drawable/ic_iconfinder_youtube_317714"
+                   android:layout_marginStart="10dp"
+                   android:onClick="navBodyOnClick"
+                   android:id="@+id/mg_youtubeIconNavBody"
+
+        />
+
+    </LinearLayout>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Made by Relief Co."
+              android:gravity="bottom"
+              android:textSize="15sp"
+              android:textColor="#92FFFFFF"
+              android:fontFamily="@font/montserrat"/>
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>
